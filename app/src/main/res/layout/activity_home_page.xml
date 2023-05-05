@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomePageActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/energySaverTopic"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/recImgBtn"
+        android:layout_width="133dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/round_button"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/quality"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/recUseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_text"
+        android:backgroundTint="#FFC107"
+        android:padding="3dp"
+        android:text="@string/hRecUsage"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recImgBtn" />
+
+    <ImageButton
+        android:id="@+id/mapImgBtn"
+        android:layout_width="131dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/round_button"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/recImgBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/map"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/mapText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_text"
+        android:backgroundTint="#FFC107"
+        android:padding="3dp"
+        android:text="@string/hOutageMaps"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/recUseText"
+        app:layout_constraintTop_toBottomOf="@+id/mapImgBtn" />
+
+    <ImageButton
+        android:id="@+id/tipImgBtn"
+        android:layout_width="131dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_button"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recUseText"
+        app:srcCompat="@drawable/lightbulb"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tipText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rounded_text"
+        android:backgroundTint="#FFC107"
+        android:padding="3dp"
+        android:text="@string/hSavingTips"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipImgBtn" />
+
+    <ImageButton
+        android:id="@+id/solarImgButton"
+        android:layout_width="131dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_button"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/tipImgBtn"
+        app:layout_constraintTop_toBottomOf="@+id/mapText"
+        app:srcCompat="@drawable/solar"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/renewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_text"
+        android:backgroundTint="#FFC107"
+        android:padding="3dp"
+        android:text="@string/hRenewEnergy"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solarImgButton" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="102dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ensaver" />
+
+    <ImageButton
+        android:id="@+id/co2ImgBtn"
+        android:layout_width="131dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/round_button"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/renewText"
+        app:srcCompat="@drawable/co2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_text"
+        android:backgroundTint="#FFC107"
+        android:padding="3dp"
+
+        android:text="@string/carbonPrint"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/co2ImgBtn" />
+
+    <ImageButton
+        android:id="@+id/billBtn"
+        android:layout_width="131dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/round_button"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recUseText"
+        app:srcCompat="@drawable/bill"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rounded_text"
+        android:backgroundTint="#FFC107"
+        android:text="@string/eBill"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/billBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">RenewableSources</string>
+    <string name="insertSource">Insert Renewable Sources</string>
+    <string name="fetchSource">Fetch Renewable Source</string>
+    <string name="enterRating">Enter Rating</string>
+    <string name="enterSource">Enter Renewable Source</string>
+    <string name="enterContent">Enter Source Content</string>
+    <string name="saveSourceData">Save Data</string>
+    <string name="recommendedUsageAmount">Recommended Usage Amount</string>
+    <string name="enterExpectedBillAmount">Enter expected bill amount</string>
+    <string name="usableUnitsAmount">No of used units</string>
+    <string name="billAmount">Bill Amount</string>
+    <string name="noOfUnits">No of units used</string>
+    <string name="numOfElectricItemsUse">Num of Electric items use</string>
+    <string name="items">Items</string>
+    <string name="piorityOfItems">Priority level of items</string>
+    <string name="piorityOne">Level 1</string>
+    <string name="piorityTwo">Level 2</string>
+    <string name="piorityThree">Level 3</string>
+    <string name="unitUsage">Usage Amount of units</string>
+    <string name="usage1">Usage</string>
+    <string name="usage2">Usage</string>
+    <string name="usage3">Usage</string>
+    <string name="enterBillAmount">Enter Bill Amount</string>
+    <string name="energySaverTopic">Energy Saver</string>
+    <string name="hRecUsage">Recommended Usage</string>
+    <string name="hOutageMaps">Outage Maps</string>
+    <string name="hSavingTips">Energy Saving Tips</string>
+    <string name="hRenewEnergy">Renewable Energy</string>
+    <string name="carbonPrint">Carbon Foot Print Calculator</string>
+    <string name="home">Home</string>
+    <string name="eBill">Electricity Bill Calculator</string>
+</resources>
