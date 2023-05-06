@@ -235,7 +235,7 @@
         android:id="@+id/eCText"
         android:layout_width="158dp"
         android:layout_height="49dp"
-        android:layout_marginStart="56dp"
+        android:layout_marginStart="57dp"
         android:layout_marginTop="13dp"
         android:background="@drawable/rounded_text"
         android:backgroundTint="#396200EE"
