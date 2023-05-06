@@ -23,7 +23,7 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="72dp"
-        android:layout_marginTop="33dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/round_button"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
@@ -198,8 +198,8 @@
 
     <ImageView
         android:id="@+id/preImgBtn"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
         android:layout_marginStart="72dp"
         android:layout_marginTop="21dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -208,8 +208,8 @@
 
     <ImageView
         android:id="@+id/consImgBtn"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
         android:layout_marginTop="21dp"
         android:layout_marginEnd="72dp"
         app:layout_constraintEnd_toEndOf="parent"
