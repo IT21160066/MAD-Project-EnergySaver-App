@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RenewableSources</string>
+    <string name="app_name">Energy Saver</string>
     <string name="insertSource">Insert Renewable Sources</string>
     <string name="fetchSource">Fetch Renewable Source</string>
     <string name="enterRating">Enter Rating</string>
@@ -30,4 +30,12 @@
     <string name="carbonPrint">Carbon Foot Print Calculator</string>
     <string name="home">Home</string>
     <string name="eBill">Electricity Bill Calculator</string>
+    <string name="adminRenew">Admin DashBoard</string>
+    <string name="count1">count</string>
+    <string name="count2">count</string>
+    <string name="count3">count</string>
+    <string name="reNewInsert">Insert Data</string>
+    <string name="dashRenw">Renewable Sources Admin</string>
+    <string name="billPredictor">Bill Predictor</string>
+    <string name="econsCal">E-Consumption Calulator</string>
 </resources>

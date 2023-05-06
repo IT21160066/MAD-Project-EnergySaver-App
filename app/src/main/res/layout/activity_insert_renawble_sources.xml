@@ -10,15 +10,12 @@
       android:id="@+id/rnSourceName"
       android:layout_width="250dp"
       android:layout_height="60dp"
-      android:layout_marginStart="101dp"
-      android:layout_marginTop="48dp"
-      android:layout_marginEnd="101dp"
+      android:layout_marginTop="68dp"
+      android:layout_marginEnd="71dp"
       android:ems="10"
       android:hint="@string/enterSource"
       android:inputType="textPersonName"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.268"
-      app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
   <Button
@@ -28,7 +25,8 @@
       android:layout_marginStart="160dp"
       android:layout_marginEnd="135dp"
       android:layout_marginBottom="268dp"
-      android:text="@string/saveSourceData"
+      android:backgroundTint="@color/purple_500"
+      android:text="@string/reNewInsert"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent" />
@@ -37,29 +35,24 @@
       android:id="@+id/rnSourceContent"
       android:layout_width="250dp"
       android:layout_height="60dp"
-      android:layout_marginStart="102dp"
       android:layout_marginTop="48dp"
-      android:layout_marginEnd="100dp"
+      android:layout_marginEnd="71dp"
       android:ems="10"
       android:hint="@string/enterContent"
       android:inputType="textPersonName"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.292"
-      app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/rnSourceName" />
 
   <EditText
       android:id="@+id/rnSourceRating"
       android:layout_width="250dp"
       android:layout_height="60dp"
-      android:layout_marginStart="88dp"
       android:layout_marginTop="46dp"
-      android:layout_marginEnd="73dp"
+      android:layout_marginEnd="71dp"
       android:ems="10"
       android:hint="@string/enterRating"
       android:inputType="textPersonName"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/rnSourceContent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

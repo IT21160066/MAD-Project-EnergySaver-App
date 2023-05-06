@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
+        android:backgroundTint="@color/purple_500"
         android:text="Update Data" />
 
 

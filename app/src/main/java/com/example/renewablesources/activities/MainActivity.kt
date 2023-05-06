@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var btnInsertSourceData: Button
     private lateinit var btnFetchSourceData: Button
-    private lateinit var hBtn: Button
+//    private lateinit var hBtn: Button
 
-    private lateinit var recUsage: Button
+//    private lateinit var recUsage: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,9 +20,9 @@ class MainActivity : AppCompatActivity() {
 
         btnInsertSourceData = findViewById(R.id.btnInsertSourceData)
         btnFetchSourceData = findViewById(R.id.btnFetchSourceData)
-        hBtn = findViewById(R.id.hBtn)
-
-        recUsage = findViewById(R.id.recUsage)
+//        hBtn = findViewById(R.id.hBtn)
+//
+//        recUsage = findViewById(R.id.recUsage)
 
         btnInsertSourceData.setOnClickListener{
 
@@ -35,15 +35,15 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        recUsage.setOnClickListener{
-            val intent = Intent(this, RecommendedUsageAmount::class.java)
-            startActivity(intent)
-        }
-
-        hBtn.setOnClickListener{
-            val intent = Intent(this, HomePageActivity::class.java)
-            startActivity(intent)
-        }
+//        recUsage.setOnClickListener{
+//            val intent = Intent(this, RecommendedUsageAmount::class.java)
+//            startActivity(intent)
+//        }
+//
+//        hBtn.setOnClickListener{
+//            val intent = Intent(this, HomePageActivity::class.java)
+//            startActivity(intent)
+//        }
 
 //       val firebase : DatabaseReference = FirebaseDatabase.getInstance().getReference()
     }

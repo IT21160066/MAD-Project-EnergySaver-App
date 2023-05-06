@@ -25,7 +25,7 @@ class RenewableSourceDetailsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_fetch_renewable_sources)
+        setContentView(R.layout.activity_renewable_source_details)
 
         initView()
         setValuesToViews()
@@ -52,7 +52,7 @@ class RenewableSourceDetailsActivity : AppCompatActivity() {
         tvSrcRating = findViewById(R.id.tvSrcRating)
 
         btnUpdate = findViewById(R.id.btnUpdate)
-        btnDelete = findViewById(R.id.btnDelete)
+       btnDelete = findViewById(R.id.btnDelete)
     }
 
     private fun setValuesToViews() {

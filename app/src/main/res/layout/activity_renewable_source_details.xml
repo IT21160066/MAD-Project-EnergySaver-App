@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple_500"
         android:text="Update"
         app:layout_constraintEnd_toStartOf="@+id/btnDelete"
         app:layout_constraintHorizontal_bias="0.5"
@@ -22,6 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple_500"
         android:text="Delete"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -111,7 +113,7 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text="Source Name"
-                    android:textColor="@color/black"
+                    android:textColor="#3F51B5"
                     android:textSize="15sp" />
 
             </LinearLayout>
@@ -161,7 +163,7 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text="Source Content"
-                    android:textColor="@color/black"
+                    android:textColor="#3F51B5"
                     android:textSize="15sp"
 
 
@@ -216,7 +218,7 @@
 
                     android:gravity="center"
                     android:text="Source Rating"
-                    android:textColor="@color/black"
+                    android:textColor="#3F51B5"
                     android:textSize="15sp"
 
 

@@ -22,13 +22,20 @@ class HomePageActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val imageButton2 : ImageButton = (findViewById(R.id.solarImgButton))
+        val imageButton4 : ImageButton = (findViewById(R.id.solarImgButton))
 
-        imageButton2.setOnClickListener{
+        imageButton4.setOnClickListener{
 
-            val intent = Intent(this, FetchRenewableSources::class.java)
+            val intent = Intent(this, FetchRenewableSourcesUser::class.java)
             startActivity(intent)
         }
+
+//        val homebtn : Button = (findViewById(R.id.homebtn))
+//
+//        homebtn.setOnClickListener{
+//            val intent = Intent(this, MainActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 
 

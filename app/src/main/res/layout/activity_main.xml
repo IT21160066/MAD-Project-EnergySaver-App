@@ -10,43 +10,44 @@
         android:id="@+id/btnInsertSourceData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginEnd="157dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="72dp"
+        android:width="260dp"
+        android:height="60dp"
+        android:backgroundTint="@color/purple_500"
         android:text="@string/insertSource"
-        app:layout_constraintBottom_toTopOf="@+id/btnFetchSourceData"
+        android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/dbHeadRenew" />
 
     <Button
         android:id="@+id/btnFetchSourceData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="163dp"
-        android:layout_marginEnd="154dp"
-        android:layout_marginBottom="237dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="72dp"
+        android:width="260dp"
+        android:height="60dp"
+        android:backgroundTint="@color/purple_500"
         android:text="@string/fetchSource"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/btnInsertSourceData" />
 
-    <Button
-        android:id="@+id/recUsage"
+    <TextView
+        android:id="@+id/dbHeadRenew"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
-        android:text="Recommended usage "
-        app:layout_constraintBottom_toTopOf="@+id/btnInsertSourceData"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/dashRenw"
+        android:textColor="@color/purple_500"
+        android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/hBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="115dp"
-        android:layout_marginEnd="168dp"
-        android:text="@string/home"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

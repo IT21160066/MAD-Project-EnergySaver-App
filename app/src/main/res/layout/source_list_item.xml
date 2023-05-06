@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardElevation="8dp"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="#1a75ff"
     app:cardCornerRadius="8dp"
-    android:layout_margin="8dp">
+    app:cardElevation="8dp">
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="16dp"
         android:layout_gravity="center"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="13dp">
 
-        <LinearLayout
+
+        <TextView
+            android:id="@+id/rnSourceName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:orientation="horizontal">
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Renewable Source Name"
+            android:textColor="@color/white"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            tools:layout_conversion_absoluteHeight="38dp"
+            tools:layout_conversion_absoluteWidth="352dp"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="14dp" />
 
-            <TextView
-                android:id="@+id/rnSourceName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Renewable Source Name"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:textColor="@color/black"
-                android:textSize="30sp"
-                android:textStyle="bold"/>
-
-
-        </LinearLayout>
 
     </LinearLayout>
 
